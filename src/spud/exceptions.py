@@ -1,0 +1,2 @@
+class SpudCheckError(AssertionError):
+    pass

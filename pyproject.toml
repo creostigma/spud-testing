@@ -1,0 +1,18 @@
+[project]
+name = "spud-testing"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["httpx"]
+description = "A lightweight Python toolkit for API testing"
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = ["pytest", "mypy", "ruff"]
+
+[tool.mypy]
+mypy_path = "src"
+explicit_package_bases = true

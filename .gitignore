@@ -1,2 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
 .idea/
-./venv
+
+# macOS
+.DS_Store
+
+# Temporary examples
+quickstart.py
